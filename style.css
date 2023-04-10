@@ -122,7 +122,7 @@ main h2 {
 }
 
 .keepP {
-  margin: 1.25em 30% 5em 30%;
+  margin: 1.25em 22% 5em 22%;
   text-align: center;
 }
 
@@ -156,20 +156,21 @@ main h2 {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: left;
 }
 
 .sectionKeep {
-  margin: 1.25em 0;
+  margin: 1.25em 7.25em;
 }
 
 .sectionKeep h3 {
+  text-align: left;
   margin: 0.625em 0;
 }
 
 .sectionKeep p {
-  width: 45%;
+  width: 70%;
+  text-align: left;
 }
 
 .keepSection {
@@ -279,8 +280,7 @@ main h2 {
 }
 
 .ClipboardBottomSection p {
-  margin: 2.5em 0;
-  width: 80%;
+  margin: 2.5em 14.5em;
   text-align: center;
 }
 
@@ -383,6 +383,7 @@ footer a:hover {
   }
   header p {
     width: 80%;
+    font-size: 1em;
   }
   .headerButtons {
     display: flex;
@@ -417,6 +418,22 @@ footer a:hover {
   }
   .keepColumn {
     grid-area: keepColumn;
+  }
+  .sectionKeep {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sectionKeep h3 {
+    text-align: center;
+  }
+  .sectionKeep p {
+    text-align: center;
+    width: 100%;
+  }
+  .accesSection p {
+    margin: 1.25em 15% 7.5em 15%;
   }
   .workGrid {
     padding: 0 6.25em;
@@ -454,6 +471,9 @@ footer a:hover {
   .img4,
   .img5 {
     margin: 40px 0;
+  }
+  .ClipboardBottomSection p {
+    margin: 2.5em 4.5em;
   }
   .bottomButtons {
     display: flex;
