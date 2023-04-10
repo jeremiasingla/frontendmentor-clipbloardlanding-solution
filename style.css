@@ -4,13 +4,13 @@
 }
 
 body {
+  max-width: 100%;
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
 }
 
 .gridAll {
   overflow-x: hidden;
-  min-width: 100vh;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
@@ -49,8 +49,8 @@ header {
 }
 
 .headerLogo img {
-  height: 7.8125rem;
-  margin-bottom: 2.5rem;
+  height: 7.8125em;
+  margin-bottom: 2.5em;
 }
 
 h1,
@@ -63,7 +63,11 @@ h4 {
 h1,
 h2 {
   text-align: center;
-  font-size: 2.25rem;
+  font-size: 2.25em;
+}
+
+h4 {
+  text-align: center;
 }
 
 body p {
@@ -74,18 +78,18 @@ header p {
   width: 35%;
   font-size: 18px;
   text-align: center;
-  margin: 2.5rem 0;
+  margin: 2.5em 0;
 }
 
 .iOsBtn {
   text-decoration: none;
   cursor: pointer;
-  margin: 0 0.625rem;
+  margin: 0 0.625em;
   background-color: hsl(171, 66%, 44%);
   box-shadow: 0 2px 0 #00917d, 0 5px 10px hsla(171, 66%, 44%, 0.5);
-  padding: 0.625rem 1.25rem;
+  padding: 0.625em 1.25em;
   border-radius: 25px;
-  font-size: 0.875rem;
+  font-size: 0.875em;
   font-weight: 600;
   line-height: 2;
   color: #fff;
@@ -102,12 +106,12 @@ header p {
 .MacBtn {
   text-decoration: none;
   cursor: pointer;
-  margin: 0 0.625rem;
+  margin: 0 0.625em;
   background-color: hsl(233, 100%, 69%);
   box-shadow: 0 2px 0 #3754db, 0 5px 10px hsla(233, 100%, 69%, 0.5);
-  padding: 0.625rem 1.25rem;
+  padding: 0.625em 1.25em;
   border-radius: 25px;
-  font-size: 0.875rem;
+  font-size: 0.875em;
   font-weight: 600;
   line-height: 2;
   color: #fff;
@@ -119,7 +123,7 @@ main h2 {
 }
 
 .keepP {
-  margin: 1.25rem 30% 5rem 30%;
+  margin: 1.25em 30% 5em 30%;
   text-align: center;
 }
 
@@ -136,7 +140,12 @@ main h2 {
   justify-content: left;
   align-items: center;
 }
-
+.imgComputer img {
+  width: 100%;
+}
+.Devices img {
+  width: 100%;
+}
 .keepColumn {
   grid-area: keepColumn;
 }
@@ -156,11 +165,11 @@ main h2 {
 }
 
 .sectionKeep {
-  margin: 1.25rem 0;
+  margin: 1.25em 0;
 }
 
 .sectionKeep h3 {
-  margin: 0.625rem 0;
+  margin: 0.625em 0;
 }
 
 .sectionKeep p {
@@ -168,11 +177,11 @@ main h2 {
 }
 
 .keepSection {
-  margin: 7.5rem 0;
+  margin: 7.5em 0;
 }
 
 .accesSection p {
-  margin: 1.25rem 30% 7.5rem 30%;
+  margin: 1.25em 30% 7.5em 30%;
   text-align: center;
 }
 
@@ -183,12 +192,12 @@ main h2 {
 }
 
 .superchargeSection p {
-  margin: 2.5rem 0;
+  margin: 2.5em 0;
   text-align: center;
 }
 
 .workGrid {
-  padding: 0 6.25rem;
+  padding: 0 6.25em;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
@@ -217,18 +226,18 @@ main h2 {
 .itemWork1 img,
 .itemWork2 img,
 .itemWork3 img {
-  margin: 2.5rem 0;
+  margin: 2.5em 0;
 }
 
 .itemWork1 h4,
 .itemWork2 h4,
 .itemWork3 h4 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .rowLogos {
-  margin: 5rem;
-  padding: 0 1.25rem;
+  margin: 5em;
+  padding: 0 1.25em;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
@@ -274,8 +283,8 @@ main h2 {
 }
 
 .ClipboardBottomSection p {
-  margin: 2.5rem 0;
-  width: 40%;
+  margin: 2.5em 0;
+  width: 80%;
   text-align: center;
 }
 
@@ -284,8 +293,8 @@ main h2 {
 }
 
 footer {
-  margin: 5rem 0 0 0;
-  padding: 3.125rem 6.25rem;
+  margin: 5em 0 0 0;
+  padding: 3.125em 6.25em;
   background-color: #f5f6f8;
   display: flex;
   align-items: center;
@@ -293,7 +302,7 @@ footer {
 }
 
 .footerLogo img {
-  height: 3.75rem;
+  height: 3.75em;
 }
 
 .footerIcons {
@@ -301,8 +310,8 @@ footer {
 }
 
 .footerIcons img {
-  height: 1.5625rem;
-  padding: 0 0.7813rem;
+  height: 1.5625em;
+  padding: 0 0.7813em;
 }
 
 .footerGrid {
@@ -313,15 +322,15 @@ footer {
 }
 .footer1 {
   grid-area: footer1;
-  margin: 0 3.125rem;
+  margin: 0 3.125em;
 }
 .footer2 {
   grid-area: footer2;
-  margin: 0 3.125rem;
+  margin: 0 3.125em;
 }
 .footer3 {
   grid-area: footer3;
-  margin: 0 3.125rem;
+  margin: 0 3.125em;
 }
 
 .attribution {
@@ -333,7 +342,7 @@ footer {
 }
 
 footer li {
-  margin: 1.875rem 0;
+  margin: 1.875em 0;
   list-style: none;
 }
 
@@ -351,9 +360,6 @@ footer a:hover {
     display: flex;
     margin: 0px 0;
   }
-  .imgComputer img {
-    width: 100%;
-  }
   .img1 img,
   .img2 img,
   .img3 img,
@@ -364,6 +370,9 @@ footer a:hover {
 }
 
 @media screen and (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
   header {
     background-image: linear-gradient(
         rgba(255, 255, 255, 0),
@@ -377,13 +386,13 @@ footer a:hover {
   }
   .iOsBtn {
     text-align: center;
-    margin: 0.625rem 0;
-    padding: 0.625rem 5rem;
+    margin: 0.625em 0;
+    padding: 0.625em 5em;
   }
   .MacBtn {
     text-align: center;
-    margin: 0.625rem 0;
-    padding: 0.625rem 5rem;
+    margin: 0.625em 0;
+    padding: 0.625em 5em;
   }
   .gridKeep {
     display: grid;
@@ -404,7 +413,7 @@ footer a:hover {
     grid-area: keepColumn;
   }
   .workGrid {
-    padding: 0 6.25rem;
+    padding: 0 6.25em;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
