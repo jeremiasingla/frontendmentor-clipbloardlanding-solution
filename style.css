@@ -143,9 +143,6 @@ main h2 {
 .imgComputer img {
   width: 100%;
 }
-.Devices img {
-  width: 100%;
-}
 .keepColumn {
   grid-area: keepColumn;
 }
@@ -402,12 +399,14 @@ footer a:hover {
       "imgComputer"
       "keepColumn";
   }
-
   .imgComputer {
     grid-area: imgComputer;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .Devices img {
+    width: 100%;
   }
   .keepColumn {
     grid-area: keepColumn;
@@ -422,7 +421,6 @@ footer a:hover {
       "itemWork2"
       "itemWork3";
   }
-
   .itemWork1 {
     grid-area: itemWork1;
   }
