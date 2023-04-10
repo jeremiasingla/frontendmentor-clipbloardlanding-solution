@@ -280,6 +280,7 @@ main h2 {
 }
 
 .ClipboardBottomSection p {
+  width: 60%;
   margin: 2.5em 14.5em;
   text-align: center;
 }
