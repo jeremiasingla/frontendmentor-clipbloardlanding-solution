@@ -13,7 +13,7 @@ Los usuarios deberían poder:
 
 ### Screenshot
 
-![./screenshot.jpg](./screenshot.jpg)
+![./screenshot.png](./screenshot.png)
 
 ### Links
 
