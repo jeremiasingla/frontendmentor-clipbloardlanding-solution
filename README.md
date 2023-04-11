@@ -1,31 +1,25 @@
 # Frontend Mentor - Clipboard Landing Page Solution
 
-This is a solution to the [Clipboard Landing Page Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Esta es una solución al [Clipboard Landing Page Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Los desafíos de Frontend Mentor te ayudan a mejorar tus habilidades de programación mediante la construcción de proyectos realistas.
 
-## Table of contents
+## Tabla de Contenidos
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [El Challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [Proceso(#my-process)
+  - [Hecho con](#built-with)
+- [Autor](#autor)
 
 ## Overview
 
-### The challenge
+### El Challenge
 
-Users should be able to:
+Los usuarios deberían poder:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- Ver el diseño óptimo del sitio según el tamaño de pantalla de su dispositivo.
+- Ver los estados de desplazamiento para todos los elementos interactivos en la página.
 
 ### Screenshot
 
@@ -34,18 +28,18 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/jeremiasingla/frontendmentor-clipbloardlanding-solution.git](https://github.com/jeremiasingla/frontendmentor-clipbloardlanding-solution.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://jeremiasingla.github.io/frontendmentor-clipbloardlanding-solution/](https://jeremiasingla.github.io/frontendmentor-clipbloardlanding-solution/)
 
-## My process
+## Proceso
 
-### Built with
+### Hecho con
 
-- Semantic HTML5 Markup
+- HTML5 Semantico
 - CSS Custom Properties
 - Flexbox
 - CSS Grid
 
-## Author
+## Autor
 
-- Website - [Jeremias Ingla](https://github.com/jeremiasingla/)
+- Web - [Jeremias Ingla](https://github.com/jeremiasingla/)
 - Frontend Mentor - [@jeremiasingla](https://www.frontendmentor.io/profile/jeremiasingla)
