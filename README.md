@@ -2,16 +2,6 @@
 
 Esta es una solución al [Clipboard Landing Page Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Los desafíos de Frontend Mentor te ayudan a mejorar tus habilidades de programación mediante la construcción de proyectos realistas.
 
-## Tabla de Contenidos
-
-- [Overview](#overview)
-  - [El Challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [Proceso(#my-process)
-  - [Hecho con](#built-with)
-- [Autor](#autor)
-
 ## Overview
 
 ### El Challenge
@@ -23,7 +13,7 @@ Los usuarios deberían poder:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![./screenshot.jpg](./screenshot.jpg)
 
 ### Links
 
