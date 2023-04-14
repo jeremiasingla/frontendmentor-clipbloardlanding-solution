@@ -17,7 +17,7 @@ Los usuarios deberían poder:
 
 ### Links
 
-- Solution URL: [https://github.com/jeremiasingla/frontendmentor-clipbloardlanding-solution.git](https://github.com/jeremiasingla/frontendmentor-clipbloardlanding-solution.git)
+- Solution URL: [https://github.com/jeremiasingla/frontendmentor-clipbloardlanding-solution](https://github.com/jeremiasingla/frontendmentor-clipbloardlanding-solution)
 - Live Site URL: [https://jeremiasingla.github.io/frontendmentor-clipbloardlanding-solution/](https://jeremiasingla.github.io/frontendmentor-clipbloardlanding-solution/)
 
 ## Proceso
